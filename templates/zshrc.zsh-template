@@ -107,7 +107,7 @@ source $ZSH/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source ~/.bash_profile
 
-#about clashX proxy
+# about clashX proxy
 function proxy_on() {
     export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
     export http_proxy="http://127.0.0.1:7890"
@@ -121,3 +121,6 @@ function proxy_off(){
     unset https_proxy
     echo -e "已关闭代理"
 }
+
+# some alias
+alias typora="open -a typora"
