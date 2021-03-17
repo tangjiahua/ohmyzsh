@@ -124,4 +124,4 @@ function proxy_off(){
 
 # some alias
 alias typora="open -a typora"
-alias ls="ls -al"
+#alias ls="ls -al"
